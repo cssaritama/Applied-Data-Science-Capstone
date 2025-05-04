@@ -72,6 +72,21 @@ For detailed results, refer to the [presentation PDF](presentation.pdf) and the 
 ### **Repository Structure**
 The repository is organized as follows:
 
+├── notebooks/               # Jupyter notebooks for data analysis and modeling
+│   ├── data_collection.ipynb
+│   ├── data_wrangling.ipynb
+│   ├── eda.ipynb
+│   └── predictive_modeling.ipynb
+├── scripts/                 # Python scripts for automation and deployment
+│   ├── data_cleaning.py
+│   └── dashboard_app.py
+├── data/                    # Raw and processed datasets
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+├── presentation.pdf          # Final presentation summarizing the project
+├── README.md                 # This file
+└── requirements.txt          # List of Python dependencies
+
 ---
 
 ### **Tools and Libraries**
