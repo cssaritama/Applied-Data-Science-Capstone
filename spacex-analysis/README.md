@@ -72,70 +72,18 @@ For detailed results, refer to the [presentation PDF](presentation.pdf) and the 
 ### **Repository Structure**
 The repository is organized as follows:
 
-├── notebooks/ # Jupyter notebooks for data analysis and modeling
-│ ├── data_collection.ipynb
-│ ├── data_wrangling.ipynb
-│ ├── eda.ipynb
-│ └── predictive_modeling.ipynb
-├── scripts/ # Python scripts for automation and deployment
-│ ├── data_cleaning.py
-│ └── dashboard_app.py
-├── data/ # Raw and processed datasets
-│ ├── raw_data.csv
-│ └── cleaned_data.csv
-├── presentation.pdf # Final presentation summarizing the project
-├── README.md # This file
-└── requirements.txt # List of Python dependencies
+---
 
-
-Tools and Libraries
+### **Tools and Libraries**
 The following tools and libraries were used in this project:
+- **Programming Language**: Python
+- **Data Analysis**: Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn, Plotly, Folium
+- **Machine Learning**: Scikit-learn
+- **Web Scraping**: BeautifulSoup, Requests
+- **Dashboards**: Plotly Dash
+- **API Integration**: SpaceX API
 
-Programming Language : Python
-Data Analysis : Pandas, NumPy
-Visualization : Matplotlib, Seaborn, Plotly, Folium
-Machine Learning : Scikit-learn
-Web Scraping : BeautifulSoup, Requests
-Dashboards : Plotly Dash
-API Integration : SpaceX API
 To install the required libraries, run:
-
-bash
-
-
-1
+```bash
 pip install -r requirements.txt
-How to Run the Code
-Clone the repository:
-bash
-
-
-1
-2
-git clone https://github.com/cssaritama/Applied-Data-Science-Capstone.git
-cd Applied-Data-Science-Capstone/spacex-analysis
-Install dependencies:
-bash
-
-
-1
-pip install -r requirements.txt
-Run the notebooks:
-Open the .ipynb files in Jupyter Notebook or JupyterLab.
-Execute the cells sequentially to reproduce the analysis.
-Run the dashboard app:
-bash
-
-
-1
-python scripts/dashboard_app.py
-Contributions
-Contributions to this project are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License . You are free to use, modify, and distribute the code for personal or commercial purposes.
-
-Acknowledgments
-Coursera : For providing the Applied Data Science specialization.
-SpaceX API : For making launch data publicly accessible.
-Open-source libraries : For enabling efficient data science workflows.
