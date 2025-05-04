@@ -99,6 +99,21 @@ The following tools and libraries were used in this project:
 - **Dashboards**: Plotly Dash
 - **API Integration**: SpaceX API
 
-To install the required libraries, run:
-```bash
-pip install -r requirements.txt
+
+## Contributions
+
+Contributions to this project are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal or commercial purposes.
+
+---
+
+## Acknowledgments
+
+- **Coursera**: For providing the Applied Data Science specialization and the guided lab for this project.
+- **SpaceX API**: For making launch data publicly accessible.
+- **Open-source libraries**: For enabling efficient data science workflows.
