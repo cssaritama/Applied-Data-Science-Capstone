@@ -69,25 +69,6 @@ For detailed results, refer to the [presentation PDF](presentation.pdf) and the 
 
 ---
 
-### **Repository Structure**
-The repository is organized as follows:
-
-├── notebooks/ # Jupyter notebooks for data analysis and modeling
-│ ├── data_collection.ipynb # Notebook for collecting data from APIs and web scraping
-│ ├── data_wrangling.ipynb # Notebook for cleaning and preprocessing the raw data
-│ ├── eda.ipynb # Notebook for exploratory data analysis (EDA)
-│ └── predictive_modeling.ipynb # Notebook for building and evaluating predictive models
-├── scripts/ # Python scripts for automation and deployment
-│ ├── data_cleaning.py # Script to automate data cleaning tasks
-│ └── dashboard_app.py # Script to run the Plotly Dash interactive dashboard
-├── data/ # Raw and processed datasets
-│ ├── raw_data.csv # Raw dataset collected from SpaceX API and other sources
-│ └── cleaned_data.csv # Processed dataset after data wrangling
-├── presentation.pdf # Final presentation summarizing the project findings
-├── README.md # This file containing an overview of the project
-└── requirements.txt # List of Python dependencies required to run the code
----
-
 ### **Tools and Libraries**
 The following tools and libraries were used in this project:
 - **Programming Language**: Python
